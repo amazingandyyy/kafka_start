@@ -55,7 +55,7 @@ consumer groups
 
 ```shell
 ❯ kafka-consumer-groups --bootstrap-server localhost:9092 --list
-❯ kafka-consumer-groups --bootstrap-server localhost:9092 --describe --group my-second-application
+❯ kafka-consumer-groups --bootstrap-server localhost:9092 --describe --group my-application-id
 # switch offset
 ❯ kafka-consumer-groups --bootstrap-server localhost:9092 --group my-second-application -reset-offsets --to-earliest --execute --all-topics
 ```
